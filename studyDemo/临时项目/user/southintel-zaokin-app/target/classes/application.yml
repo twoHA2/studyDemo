@@ -1,0 +1,54 @@
+spring:
+  profiles:
+    active: test
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  jpa:
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: none
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        hbm2ddl:
+            auto: none
+        temp:
+            use_jdbc_metadata_defaults: false
+  datasource:
+    continue-on-error: true
+    hikari:
+      connection-test-query: SELECT DISTINCT 1
+      maximum-pool-size: 40
+      connection-timeout: 3000
+      validation-timeout: 3000
+  output:
+    ansi:
+      enabled: detect
+  aop:
+    auto: true
+    proxy-target-class: true
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: utf-8
+
+pool:
+    maxActive: 50
+    maxIdle: 10
+    minIdle: 5
+    maxWait: 3000
+    testOnBorrow: true
+    testOnReturn: true
+    softMinEvictableIdleTimeMillis: -1
+    lifo: false
+
+logging:
+  level:
+    #com.southintel.framework.dentist.mapper: trace
+    com.southintel.weizhi.base.mapper:  debug
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml

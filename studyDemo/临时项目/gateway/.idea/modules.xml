@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway.iml" filepath="$PROJECT_DIR$/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/southintel-zaokin-app/southintel-zaokin-app.iml" filepath="$PROJECT_DIR$/southintel-zaokin-app/southintel-zaokin-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/southintel-zaokin-base/southintel-zaokin-base.iml" filepath="$PROJECT_DIR$/southintel-zaokin-base/southintel-zaokin-base.iml" />
+    </modules>
+  </component>
+</project>

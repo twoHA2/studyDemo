@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.southintel.zaokin.base.mapper.UserConcernMapper">
+    <resultMap id="BaseResultMap" type="com.southintel.zaokin.base.entity.UserConcern">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="concern_content" property="concernContent" />
+        <result column="concern_institutions" property="concernInstitutions" />
+    </resultMap>
+
+    <insert id="insertOne" parameterType="com.southintel.zaokin.base.entity.UserConcern">
+        insert into user_concern
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                user_id,
+            </if>
+            <if test="concernContent != null">
+                concern_content,
+            </if>
+            <if test="concernInstitutions != null">
+                concern_institutions,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userId != null">
+                #{userId},
+            </if>
+            <if test="concernContent != null">
+                #{concernContent},
+            </if>
+            <if test="concernInstitutions != null">
+                #{concernInstitutions}
+            </if>
+        </trim>
+    </insert>
+
+    <update id="updateOne" parameterType="com.southintel.zaokin.base.entity.UserConcern">
+        update user_concern
+        <set>
+            <trim suffixOverrides=",">
+                <if test="userId != null">
+                    user_id=#{userId},
+                </if>
+                <if test="concernContent != null">
+                    concern_content=#{concernContent},
+                </if>
+                <if test="concernInstitutions != null">
+                    concern_institutions=#{concernInstitutions},
+                </if>
+            </trim>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="findByUserId" resultMap="BaseResultMap">
+        select * from user_concern
+        where user_id = #{userId}
+    </select>
+</mapper>

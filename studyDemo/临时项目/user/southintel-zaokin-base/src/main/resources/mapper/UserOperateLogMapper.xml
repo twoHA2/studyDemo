@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.southintel.zaokin.base.mapper.UserOperateLogMapper">
+    <resultMap id="BaseResultMap" type="com.southintel.zaokin.base.entity.UserOperateLog">
+        <id column="id" property="id" />
+        <result column="user_name" property="userName" />
+        <result column="uri" property="uri" />
+        <result column="params" property="params" />
+        <result column="body" property="body" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <insert id="insert" parameterType="com.southintel.zaokin.base.entity.UserOperateLog">
+        INSERT INTO user_operate_log
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userName != null">
+                user_name,
+            </if>
+            <if test="uri != null">
+                uri,
+            </if>
+            <if test="params != null">
+                params,
+            </if>
+            <if test="body != null">
+                body,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="userName != null">
+                #{userName},
+            </if>
+            <if test="uri != null">
+                #{uri},
+            </if>
+            <if test="params != null">
+                #{params},
+            </if>
+            <if test="body != null">
+                #{body},
+            </if>
+        </trim>
+    </insert>
+</mapper>

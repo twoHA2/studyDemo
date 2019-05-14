@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.southintel.zaokin.base.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.southintel.zaokin.base.entity.User">
+        <id column="id" property="id"/>
+        <result column="user_name" property="userName" />
+        <result column="password" property="password" />
+        <result column="tel" property="tel" />
+        <result column="salt" property="salt" />
+        <result column="create_time" property="createTime" />
+        <result column="status" property="userStatus" />
+    </resultMap>
+
+    <select id="getUserById" resultMap="BaseResultMap">
+        SELECT * FROM tb_user
+        WHERE id = #{id}
+    </select>
+
+    <select id="getUserByName" resultMap="BaseResultMap">
+        SELECT * from tb_user
+        WHERE user_name = #{userName}
+    </select>
+</mapper>
