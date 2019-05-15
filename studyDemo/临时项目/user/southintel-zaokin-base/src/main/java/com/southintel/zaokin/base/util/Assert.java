@@ -51,6 +51,7 @@ public class Assert {
 	}
 	//判断该对象 是否为空
 	public static boolean isAllFieldNull(Object obj){
+		if(obj == null )throw new BusinessException(new BaseResult(BaseResultEnum.PARAMETER_ERROR));
 		Class stuCla = (Class) obj.getClass();
 		Field[] fs = stuCla.getDeclaredFields();
 		boolean flag = true;

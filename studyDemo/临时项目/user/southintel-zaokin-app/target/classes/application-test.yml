@@ -25,3 +25,7 @@ spring:
 
 gatewayService:
    host: 127.0.0.1:12707
+SMSService:
+  host: xxx
+ZaoKinService:
+  host: xxx

@@ -22,4 +22,41 @@
     <insert id="insertZaokinUser" parameterType="com.southintel.zaokin.base.entity.RegisterData">
         insert into tb_zaokin_user(user_name,type,avatar_url,card_url)values (#{user_name},#{type},#{avatar_url},#{card_url})
     </insert>
+
+    <select id="isregister" parameterType="java.lang.Integer">
+        select count(1) from tb_user where tel = #{tel}
+    </select>
+
+    <select id="queryUserByTel" resultType="com.southintel.zaokin.base.entity.UserDto">
+      select  b.person_name,
+            c.company_name as "company",
+            b.department,
+            b.position,
+            a.tel ,
+            a.status,
+            a.user_name
+		from tb_user a
+		inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=#{tel}
+		inner join tb_company c on b.company = c.company_name
+    </select>
+
+    <select id="queryUserByUsre_name" resultType="java.util.Map">
+
+    </select>
+
+    <update id="updateUser">
+        update tb_user
+        <set>
+            <trim suffixOverrides=",">
+                <if test=" tel != null">
+                    tel =#{tel},
+                </if>
+            </trim>
+        </set>
+        where user_name = #{user_name}
+    </update>
+
+    <update id="updateUserNaturePersonData" parameterType="com.southintel.zaokin.base.entity.UserDto">
+        update
+    </update>
 </mapper>

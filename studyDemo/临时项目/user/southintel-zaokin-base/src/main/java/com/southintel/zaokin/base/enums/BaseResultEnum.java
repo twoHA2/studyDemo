@@ -17,13 +17,14 @@ public enum BaseResultEnum {
     TOKEN_ORERTIME(21,"无效的Token"),
     VERIFCODE_ERROR(22,"验证码不正确"),
 	VERIFCODE_EXPIRE(24,"验证码已失效"),
-	INVALID_CUSTOMER(26,"该用户不存在或已删除"),
+	INVALID_CUSTOMER(26,"该用户不存在"),
 	INVALID_IMG_ID(28,"无效的图片"),
     COPY_OBJECT_ERROR(29,"转换对象失败"),
     NOTUSER_OR_PASSWORDERROR(100,"用户名/密码不正确"),
     PARAMETER_ERROR(99, "参数错误或为空"),
     INTERFACE_ERROR(0,"接口异常"),
-    HXZH_ERROR(30,"hx账号注册失败!");
+    HXZH_ERROR(30,"hx账号注册失败!"),
+    VERIFCODE_CREATE_ERROR(31,"验证码发送失败");
     int code;
     String msg;
 

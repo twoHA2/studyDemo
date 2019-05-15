@@ -5,7 +5,7 @@ package com.southintel.zaokin.base.enums;
  */
 public enum ResultEnum {
     UNKNOWN_ACCOUNT_ERROR(100,"用户名或密码错误"),
-    INCORRECT_CREDENTIALS_ERROR(101,"用户名或密码错误"),
+    INCORRECT_CREDENTIALS_ERROR(101,"该手机号已注册"),
     LOCKED_ACCOUNT_ERROR(102,"账号被锁定禁止登陆"),
     EXCESSIVE_ATTEMPTS_ERROR(103,"连续登陆次数超过五次，请半小时之后再试"),
     AUTHENTICATION_ERROR(104,"用户名或密码错误"),
@@ -38,7 +38,14 @@ public enum ResultEnum {
     IDCARD_ERROR(130,"身份证号不合法"),
     LIST_IS_NULL(131,"集合为空"),
     LIST_NOT_NULL(132,"集合不为空"),
-    VIDEO_TYPE_ERR(133,"视频类型错误");
+    VIDEO_TYPE_ERR(133,"视频类型错误"),
+    VERIFCODE_ISEMPTY(134,"验证码为空"),
+    FRONT_URL_NOFIND(135,"身份证正面路径为空"),
+    SIDE_URL_NOFIND(126,"身份证反面路径为空"),
+    PROJECT_PUBLISH_FAILY(127,"项目发布失败"),
+    PROJECT_COLLECTION_FAILY(128,"项目收藏失败"),
+    PROJECT_COLLECTIN_QUERY_FAILY(129,"项目收藏查询失败"),
+    PROJECT_QUERY_FAILY(130,"资产查询失败");
     int code;
     String msg;
 

@@ -4,6 +4,8 @@ package com.southintel.zaokin.base.mapper;
 import com.southintel.zaokin.base.entity.HximUser;
 import com.southintel.zaokin.base.entity.RegisterData;
 import com.southintel.zaokin.base.entity.User;
+import com.southintel.zaokin.base.entity.UserDto;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -48,4 +50,21 @@ public interface UserMapper {
      * @return
      */
     int insertZaokinUser(RegisterData registerData);
+
+    /**
+     * 查询电话是否已注册
+     * @param tel
+     * @return
+     */
+    int isregister(@Param("tel") String tel);
+
+    /**
+     * 查询user
+     * @param tel
+     * @return
+     */
+    List< UserDto >  queryUserByTel(@Param("tel") String tel);
+
+    int updateUser(UserDto userDto);
+
 }

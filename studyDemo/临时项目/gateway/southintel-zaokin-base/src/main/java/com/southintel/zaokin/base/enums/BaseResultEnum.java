@@ -23,7 +23,9 @@ public enum BaseResultEnum {
     HTTP_ERROR(29,"转发获取数据异常"),
     PARAMETER_ERROR(99, "参数错误或为空"),
 
-    INTERFACE_ERROR(0,"接口异常");
+    INTERFACE_ERROR(0,"接口异常"),
+    URL_NOFIND(404,"没找到该请求服务"),
+    REQUEST_NOFIND(403,"没找到该请求方式");
 
 	
 

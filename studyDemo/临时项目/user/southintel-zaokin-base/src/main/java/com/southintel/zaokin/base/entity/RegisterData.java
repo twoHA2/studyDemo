@@ -5,10 +5,10 @@ import lombok.Data;
 @Data
 public class RegisterData {
     //用户类型
-    private String type;
+    private int type;
 
    //用户账户绑定手机号
-    private int tel;
+    private String tel;
 
     //用户人名
     private String name;

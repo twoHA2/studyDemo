@@ -31,5 +31,5 @@ public class User {
     private Date createTime;
 
     //用户状态  0启用 1禁用
-    private int userStatus;
+    private int status;
 }

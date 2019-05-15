@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.southintel.zaokin.base.mapper.UserNaturePersonMapper">
+    <update id="updateNaturePerson" parameterType="com.southintel.zaokin.base.entity.UserDto">
+        update tb_user_nature_person
+        <set>
+            <trim suffixOverrides=",">
+                <if test="person_name!=null">
+                    person_name =#{person_name},
+                </if>
+            </trim>
+        </set>
+        where user_name = #{user_name}
+    </update>
+</mapper>

@@ -1,7 +1,10 @@
 package com.southintel.zaokin.base.util;
 
 
+import com.southintel.zaokin.base.constant.Constant;
 import com.southintel.zaokin.base.entity.RequestParams;
+import com.southintel.zaokin.base.entity.User;
+import com.southintel.zaokin.base.entity.UserDto;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -41,7 +44,17 @@ public class RequestUtil {
         return ip;
     }
 
-
+    /**
+     * @Description:获取当前用户
+     * @return
+     */
+    public static UserDto currentUser(){
+        HttpServletRequest request = currentRequest();
+        String token = getToken(request);
+        String newToken = Constant.AUTH_TOKEN_PREFIX + token;
+        UserDto user = JsonUtil.toObject(TokenUtil.get(newToken),UserDto.class);
+        return user;
+    }
     public static String currentMethod(){
         HttpServletRequest request = currentRequest();
         return request.getMethod();
@@ -107,5 +120,4 @@ public class RequestUtil {
         }
         return null;
     }
-
 }

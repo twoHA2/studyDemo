@@ -4,11 +4,13 @@ import com.southintel.zaokin.base.dao.UserDao;
 import com.southintel.zaokin.base.entity.HximUser;
 import com.southintel.zaokin.base.entity.RegisterData;
 import com.southintel.zaokin.base.entity.User;
+import com.southintel.zaokin.base.entity.UserDto;
 import com.southintel.zaokin.base.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 @Repository
 public class UserDaoImpl implements UserDao{
@@ -32,10 +34,6 @@ public class UserDaoImpl implements UserDao{
         );
     }
 
-    @Override
-    public int insertUserNaturePerson(RegisterData registerData) {
-        return userMapper.insertUserNaturePerson(registerData);
-    }
 
     @Override
     public int insertCompanyName(RegisterData registerData) {
@@ -50,5 +48,25 @@ public class UserDaoImpl implements UserDao{
     @Override
     public int insertZaokinUser(RegisterData registerData) {
         return userMapper.insertZaokinUser(registerData);
+    }
+
+    @Override
+    public int isregister(String tel) {
+        return userMapper.isregister(tel);
+    }
+
+    @Override
+    public List< UserDto >  queryUserByTel(String tel) {
+        return userMapper.queryUserByTel(tel);
+    }
+
+    @Override
+    public Map queryUserByUsre_name(String user_name) {
+        return null;
+    }
+
+    @Override
+    public int updateUser(UserDto userDto) {
+        return userMapper.updateUser(userDto);
     }
 }

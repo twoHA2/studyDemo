@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.southintel.zaokin.base.mapper.UserMapper">
+
+    <update id="updateCompany" parameterType="com.southintel.zaokin.base.entity.UserDto">
+        update tb_company set
+        <set>
+            <trim suffixOverrides=",">
+                <if test="department!=null">
+                    department =#{department},
+                </if>
+                <if test="position!=null">
+                    position = #{position},
+                </if>
+                <if test="brief_introduction!=null">
+                    brief_introduction=#{brief_introduction},
+                </if>
+            </trim>
+        </set>
+        where company =#{company}
+    </update>
+</mapper>
