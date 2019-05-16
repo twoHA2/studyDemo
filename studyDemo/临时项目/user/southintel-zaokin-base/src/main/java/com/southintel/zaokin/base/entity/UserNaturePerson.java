@@ -43,6 +43,9 @@ public class UserNaturePerson {
     //地区
     private String area;
 
+    //公司简介
+    private String brief_introduction;
+
     //用户所谓部门
     private String department;
 

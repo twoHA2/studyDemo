@@ -16,9 +16,6 @@ public class Company {
     //企业类型 国企 民营 外资
     private String type;
 
-    //公司简介
-    private String brief_introduction;
-
     //公司logo地址
     private String logo_url;
 

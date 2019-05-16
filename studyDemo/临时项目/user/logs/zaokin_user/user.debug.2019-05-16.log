@@ -1,0 +1,588 @@
+14:18:26.036 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:18:26.062 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:18:26.078 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:18:26.079 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:18:26.083 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN4db1b925-897b-4edc-8bdb-12d3f5ee5c79(String), 15870882689(String)
+14:18:26.088 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:18:26.262 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:18:26.263 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN4db1b925-897b-4edc-8bdb-12d3f5ee5c79(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:18:26.268 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:18:27.614 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:18:27.616 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:18:27.621 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:19:28.391 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:19:28.391 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:19:28.400 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:19:28.401 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:19:28.401 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN1d528a07-73f4-4640-b6e9-38e9fb69c35d(String), 15870882689(String)
+14:19:28.406 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:19:28.407 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:19:28.408 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN1d528a07-73f4-4640-b6e9-38e9fb69c35d(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:19:28.413 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:19:29.497 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:19:29.500 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:19:29.510 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:20:43.302 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:20:43.553 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:20:43.860 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:20:45.728 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:20:45.733 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN07ef80e0-08d9-42f5-aa85-48d8c0ecee08(String), 15870882689(String)
+14:20:45.737 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:20:45.992 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:20:45.996 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN07ef80e0-08d9-42f5-aa85-48d8c0ecee08(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:20:46.000 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:20:49.233 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:20:49.235 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:20:49.239 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:21:09.346 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:21:09.347 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:21:09.351 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:21:09.905 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:21:09.907 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKINf8ec285b-250a-47d5-8497-5c56eb4fdb01(String), 15870882689(String)
+14:21:09.913 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:21:10.249 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:21:10.255 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKINf8ec285b-250a-47d5-8497-5c56eb4fdb01(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:21:10.260 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:21:10.449 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:21:10.451 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:21:10.456 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:22:34.215 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:22:34.215 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:22:34.218 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:22:34.219 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:22:34.219 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN59661058-22ed-4666-864c-3505b6c4a060(String), 15870882689(String)
+14:22:34.222 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:22:34.222 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:22:34.223 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN59661058-22ed-4666-864c-3505b6c4a060(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:22:34.226 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:22:34.227 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:22:34.228 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:22:34.231 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:22:48.304 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:22:48.305 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:22:48.308 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:22:49.201 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:22:49.203 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN438f14ef-4812-4c86-a661-5dbc64a66a3e(String), 15870882689(String)
+14:22:49.210 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:22:49.377 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:22:49.381 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN438f14ef-4812-4c86-a661-5dbc64a66a3e(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:22:49.387 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:22:49.576 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:22:49.581 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:22:49.589 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:30:01.071 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:30:01.317 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:30:01.626 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:30:04.297 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:30:04.302 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN1490149b-9a03-4e15-9535-e2b836a9c33d(String), 15870882689(String)
+14:30:04.308 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:30:04.614 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:30:04.618 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN1490149b-9a03-4e15-9535-e2b836a9c33d(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:30:04.623 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:30:05.092 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:30:05.094 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:30:05.101 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:30:49.513 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:30:49.514 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:30:49.521 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:30:49.862 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:30:49.864 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN5c29878b-a139-4514-837b-78388cdfa6d9(String), 15870882689(String)
+14:30:49.887 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:30:50.023 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:30:50.029 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN5c29878b-a139-4514-837b-78388cdfa6d9(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:30:50.033 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:30:52.006 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:30:52.009 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:30:52.015 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:35:50.840 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:35:50.864 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:35:50.880 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:35:50.881 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:35:50.882 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN0c862599-1a97-4233-981a-b6721aa18d7e(String), 15870882689(String)
+14:35:50.886 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:35:51.036 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:35:51.037 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN0c862599-1a97-4233-981a-b6721aa18d7e(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:35:51.040 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:35:51.046 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:35:51.047 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:35:51.052 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:36:35.173 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:36:35.173 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:36:35.176 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:36:35.176 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:36:35.176 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKINea6ef99f-b10c-43d8-972d-feec3cc36052(String), 15870882689(String)
+14:36:35.181 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:36:35.181 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:36:35.182 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKINea6ef99f-b10c-43d8-972d-feec3cc36052(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:36:35.187 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:36:35.188 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:36:35.188 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:36:35.191 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:38:48.437 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:38:48.437 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:38:48.440 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:38:48.440 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:38:48.440 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN6a7fd5a2-1622-47db-a1df-6810dcee0840(String), 15870882689(String)
+14:38:48.445 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:38:48.445 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:38:48.446 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN6a7fd5a2-1622-47db-a1df-6810dcee0840(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:38:48.451 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:38:48.451 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:38:48.451 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:38:48.454 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:40:29.309 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:40:29.331 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:40:29.354 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:40:29.355 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:40:29.357 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKINcd702b2d-fdef-4c30-93d0-3021b9f2c7ef(String), 15870882689(String)
+14:40:29.362 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:40:29.515 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:40:29.515 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKINcd702b2d-fdef-4c30-93d0-3021b9f2c7ef(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:40:29.551 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:40:29.555 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:40:29.556 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:40:29.568 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:42:18.940 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:42:18.940 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:42:18.942 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:42:18.943 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:42:18.943 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN91cdac55-12bf-4984-91b5-4de306d865c2(String), 15870882689(String)
+14:42:18.951 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:42:18.951 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:42:18.952 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN91cdac55-12bf-4984-91b5-4de306d865c2(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:42:18.956 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:42:18.956 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:42:18.956 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:42:18.965 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:53:55.926 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:53:55.950 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:53:56.100 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:53:56.101 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:53:56.103 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKINd7b63632-f69c-487b-9921-67803a77a934(String), 15870882689(String)
+14:53:56.107 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:53:56.115 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:53:56.116 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKINd7b63632-f69c-487b-9921-67803a77a934(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:53:56.119 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:53:56.124 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:53:56.124 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:53:56.129 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:54:20.572 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:54:20.572 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:54:20.575 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:54:20.575 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:54:20.576 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN3ff1d3cb-4ac0-46dc-8bca-0b925c788c64(String), 15870882689(String)
+14:54:20.578 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:54:20.579 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:54:20.580 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN3ff1d3cb-4ac0-46dc-8bca-0b925c788c64(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:54:20.584 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:54:20.585 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:54:20.585 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:54:20.591 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:55:30.262 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:55:30.284 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:55:30.299 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:55:30.439 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:55:30.441 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN58bef231-ab60-4fe1-8c9a-6d07a7608922(String), 15870882689(String)
+14:55:30.444 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:55:30.450 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:55:30.451 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN58bef231-ab60-4fe1-8c9a-6d07a7608922(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:55:30.455 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:55:30.461 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:55:30.461 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:55:30.466 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:55:50.167 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+14:55:50.168 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaok5e5da0874a9458a5ac0c2948954a6d7f(String)
+14:56:58.279 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:56:58.304 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:56:58.459 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:56:58.459 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:56:58.461 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN6a1b1ae7-d702-4a3a-806a-7562235466fe(String), 15870882689(String)
+14:56:58.465 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:56:58.470 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:56:58.470 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN6a1b1ae7-d702-4a3a-806a-7562235466fe(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:56:58.476 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:56:58.479 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:56:58.480 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:56:58.486 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:57:11.608 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+14:57:11.609 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaok5e5da0874a9458a5ac0c2948954a6d7f(String)
+14:57:11.625 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+14:57:20.543 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==>  Preparing: insert into tb_hxim_user(user_name,account,password,nickname)values(?,?,?,?) 
+14:57:20.546 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==> Parameters: ZAOKIN6a1b1ae7-d702-4a3a-806a-7562235466fe(String), zaok5e5da0874a9458a5ac0c2948954a6d7f(String), 9f0114a4a134771ae530bcb71e7426d2(String), (String)
+14:57:43.931 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:57:43.932 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:57:43.936 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:57:43.937 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:57:43.937 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKINf263be75-4f17-416a-862c-314779962958(String), 15870882689(String)
+14:57:43.942 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:57:43.942 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:57:43.943 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKINf263be75-4f17-416a-862c-314779962958(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:57:43.947 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:57:43.947 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:57:43.948 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:57:43.952 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:57:48.918 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+14:57:48.919 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaok5e5da0874a9458a5ac0c2948954a6d7f(String)
+14:57:48.925 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+14:57:50.505 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==>  Preparing: insert into tb_hxim_user(user_name,account,password,nickname)values(?,?,?,?) 
+14:57:50.511 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==> Parameters: ZAOKINf263be75-4f17-416a-862c-314779962958(String), zaok5e5da0874a9458a5ac0c2948954a6d7f(String), 9f0114a4a134771ae530bcb71e7426d2(String), (String)
+14:58:20.435 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:58:20.435 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:58:20.439 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+14:58:20.440 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+14:58:20.440 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String), 15870882689(String)
+14:58:20.444 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+14:58:20.445 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+14:58:20.445 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+14:58:20.449 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+14:58:20.449 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+14:58:20.450 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+14:58:20.455 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+14:58:29.536 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+14:58:29.537 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaok5e5da0874a9458a5ac0c2948954a6d7f(String)
+14:58:29.541 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+14:58:32.567 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==>  Preparing: insert into tb_hxim_user(user_name,account,password,nickname)values(?,?,?,?) 
+14:58:32.572 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==> Parameters: ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String), zaok5e5da0874a9458a5ac0c2948954a6d7f(String), 9f0114a4a134771ae530bcb71e7426d2(String), (String)
+14:58:32.577 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.insertHximUser - <==    Updates: 1
+14:59:59.887 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+14:59:59.888 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+14:59:59.906 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:33:16.601 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+15:33:16.835 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+15:33:17.014 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:34:07.629 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.isregister - ==>  Preparing: select count(1) from tb_user where tel = ? 
+15:36:08.003 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.isregister - ==>  Preparing: select count(1) from tb_user where tel = ? 
+15:36:29.878 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.isregister - ==>  Preparing: select count(1) from tb_user where tel = ? 
+15:36:30.175 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.isregister - ==> Parameters: 15870882689(String)
+15:37:51.751 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.isregister - ==>  Preparing: select count(1) from tb_user where tel = ? 
+15:37:51.778 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.isregister - ==> Parameters: 15870882689(String)
+15:37:51.800 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.isregister - <==      Total: 1
+15:39:59.781 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+15:39:59.782 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+15:39:59.787 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:44:40.793 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+15:44:41.076 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+15:44:41.316 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:45:14.122 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+15:45:14.123 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+15:45:14.125 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:52:53.454 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name, c.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+15:52:53.472 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+15:52:53.494 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:54:11.027 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name, c.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+15:54:11.028 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+15:54:11.046 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+15:59:59.327 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company set SET department =?, position = ?, brief_introduction=? where company =? 
+15:59:59.328 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 第一部(String), boss(String), 公司员工都是神(String), 南科 (String)
+16:01:16.890 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:01:17.185 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:01:17.200 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:01:23.899 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET person_name =? where user_name = ? 
+16:01:23.901 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: li'si李四(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:01:23.912 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:01:26.650 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET department =?, position = ?, brief_introduction=? where company =? 
+16:01:26.651 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 第一部(String), boss(String), 公司员工都是神(String), 南科 (String)
+16:03:12.604 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:03:12.904 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:03:13.017 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:03:15.786 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET person_name =? where user_name = ? 
+16:03:15.788 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: li'si李四(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:03:15.840 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:03:17.891 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET department =?, position = ?, brief_introduction=? where company_name =? 
+16:03:17.893 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 第一部(String), boss(String), 公司员工都是神(String), 南科 (String)
+16:05:27.070 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:05:27.366 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:05:27.371 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:05:28.910 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =? where user_name = ? 
+16:05:28.912 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第一部(String), boss(String), li'si李四(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:05:28.921 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:05:31.470 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET brief_introduction=? where company_name =? 
+16:05:31.471 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 公司员工都是神(String), 南科 (String)
+16:05:31.475 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - <==    Updates: 1
+16:07:03.155 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:07:03.429 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:07:03.436 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:07:04.308 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =? where user_name = ? 
+16:07:04.309 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第一部(String), boss(String), li'si李四(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:07:04.314 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:07:06.559 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET brief_introduction=? where company_name =? 
+16:07:06.560 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 公司员工都是神(String), 南科 (String)
+16:07:06.567 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - <==    Updates: 1
+16:07:09.851 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? inner join tb_company c on b.company = c.company_name 
+16:07:09.853 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:07:10.019 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 1
+16:08:29.173 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:08:29.193 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:08:29.198 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:08:29.206 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =? where user_name = ? 
+16:08:29.206 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), li'si李四(String), ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:08:29.213 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:08:29.218 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET brief_introduction=? where company_name =? 
+16:08:29.218 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 公司员工都是神 --------(String), 南科 (String)
+16:08:29.222 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.C.updateCompany - <==    Updates: 1
+16:08:29.227 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? inner join tb_company c on b.company = c.company_name 
+16:08:29.228 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKINea219eb0-9342-4f0f-8669-561eccd6a5c6(String)
+16:08:29.250 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 1
+16:10:11.492 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name, c.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+16:10:11.513 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+16:10:11.527 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+16:10:22.281 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name, c.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+16:10:22.281 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+16:10:22.290 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+16:16:38.587 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name, c.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+16:16:38.607 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+16:16:38.621 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+16:16:38.622 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+16:16:38.623 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String), 15870882689(String)
+16:16:38.627 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+16:16:38.632 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position) values (?,?,?,?,?) 
+16:16:38.633 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String)
+16:16:38.636 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+16:16:38.641 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.C.insertCompanyName - ==>  Preparing: insert into tb_company (company_name,brief_introduction)values (?,?) 
+16:16:38.641 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.C.insertCompanyName - ==> Parameters: 南科 (String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+16:16:38.645 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.C.insertCompanyName - <==    Updates: 1
+16:16:39.978 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+16:16:39.978 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaok5e5da0874a9458a5ac0c2948954a6d7f(String)
+16:16:39.995 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+16:18:47.329 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:18:47.329 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String)
+16:18:47.333 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:18:47.334 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =? where user_name = ? 
+16:18:47.334 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String)
+16:18:47.338 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:18:47.338 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET brief_introduction=? where company_name =? 
+16:18:47.338 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 公司x'x'x小行星  --------(String), 南科 (String)
+16:18:47.342 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.C.updateCompany - <==    Updates: 2
+16:19:13.375 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+16:19:13.376 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String)
+16:19:13.381 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+16:19:22.624 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =? where user_name = ? 
+16:19:22.627 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String)
+16:19:22.631 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+16:19:31.502 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.updateCompany - ==>  Preparing: update tb_company SET brief_introduction=? where company_name =? 
+16:19:31.504 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.updateCompany - ==> Parameters: 公司x'x'x小行星  --------(String), 南科 (String)
+16:19:31.507 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.C.updateCompany - <==    Updates: 2
+16:44:59.011 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, c.company_name as "company", b.department, b.position, a.tel , a.status, a.user_name, c.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+16:44:59.245 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+16:46:33.687 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+16:46:33.924 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+16:46:34.099 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 2
+17:03:51.524 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:03:51.543 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 13164674626(String)
+17:03:51.559 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:03:51.560 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+17:03:51.561 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN1b52237d-d507-4fcb-aa5d-50c0fb19e701(String), 13164674626(String)
+17:03:51.569 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+17:03:51.574 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (?,?,?,?,?,?) 
+17:03:51.575 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN1b52237d-d507-4fcb-aa5d-50c0fb19e701(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+17:03:51.580 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+17:04:29.767 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:04:29.767 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 13164674626(String)
+17:04:29.770 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:04:29.770 [http-nio-12801-exec-7] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+17:04:29.771 [http-nio-12801-exec-7] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN642fbd22-2ea2-4e19-9071-2bc47823a50b(String), 13164674626(String)
+17:04:29.773 [http-nio-12801-exec-7] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+17:04:29.774 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (?,?,?,?,?,?) 
+17:04:29.775 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN642fbd22-2ea2-4e19-9071-2bc47823a50b(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+17:04:29.778 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+17:04:47.124 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:04:47.125 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 13164674626(String)
+17:04:47.129 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:04:48.209 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+17:04:48.212 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN3a94759d-500d-4689-9ba0-dbcc5803e618(String), 13164674626(String)
+17:04:48.215 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+17:04:49.474 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (?,?,?,?,?,?) 
+17:04:49.479 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN3a94759d-500d-4689-9ba0-dbcc5803e618(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+17:04:49.484 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+17:10:31.600 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:10:31.627 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+17:10:31.643 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:10:31.644 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+17:10:31.646 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String), 16679098561(String)
+17:10:31.658 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+17:10:31.664 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (?,?,?,?,?,?) 
+17:10:31.665 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+17:10:31.668 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+17:10:32.346 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+17:10:32.346 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaokb4786c4314bd799868f9731a265f24cc(String)
+17:10:32.353 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+17:10:32.353 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==>  Preparing: insert into tb_hxim_user(user_name,account,password,nickname)values(?,?,?,?) 
+17:10:32.354 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==> Parameters: ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String), zaokb4786c4314bd799868f9731a265f24cc(String), 5bf7e10ce61d043d7f44fb91f11219a3(String), (String)
+17:10:32.357 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.insertHximUser - <==    Updates: 1
+17:11:11.313 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:11:11.313 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+17:11:11.316 [http-nio-12801-exec-6] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:11:11.340 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+17:11:11.340 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String)
+17:11:11.347 [http-nio-12801-exec-6] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 0
+17:11:26.331 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:11:26.333 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+17:11:26.337 [http-nio-12801-exec-4] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:11:27.332 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+17:11:27.333 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN592fe74f-de70-4379-a710-6656b365d7ca(String)
+17:11:27.337 [http-nio-12801-exec-4] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 0
+17:14:51.714 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:14:51.714 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+17:14:51.742 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:14:51.742 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+17:14:51.742 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:14:51.771 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+17:14:51.771 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+17:14:51.772 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:14:51.791 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+17:14:51.820 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? inner join tb_company c on b.company = c.company_name 
+17:14:51.820 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:14:51.842 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 0
+17:15:19.075 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:15:19.076 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+17:15:19.085 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:15:48.093 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+17:15:48.094 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:15:48.098 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+17:15:53.796 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+17:15:53.800 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:15:53.807 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+17:17:12.833 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? inner join tb_company c on b.company = c.company_name 
+17:17:12.834 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:17:12.838 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 0
+17:17:28.735 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? inner join tb_company c on b.company = c.company_name 
+17:17:28.736 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+17:17:28.746 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:17:29.353 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+17:17:29.355 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:17:29.361 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+17:17:29.835 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+17:17:29.837 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:17:29.847 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+17:18:03.627 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? inner join tb_company c on b.company = c.company_name 
+17:18:03.628 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKIN1206737c-b240-4693-84ef-a90d37201b04(String)
+17:18:03.632 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 0
+17:28:55.977 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+17:28:55.997 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+17:28:56.025 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+17:29:19.908 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+17:29:19.909 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+17:29:19.914 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+17:29:19.914 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+17:29:19.915 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN77f52488-9a0a-4a40-bb9b-65ec3f9dc2b3(String), 16679098561(String)
+17:29:19.927 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+17:29:19.931 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (?,?,?,?,?,?) 
+17:29:19.932 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN77f52488-9a0a-4a40-bb9b-65ec3f9dc2b3(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+17:29:19.946 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+17:29:20.675 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+17:29:20.675 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaokb4786c4314bd799868f9731a265f24cc(String)
+17:29:20.685 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+17:29:20.685 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==>  Preparing: insert into tb_hxim_user(user_name,account,password,nickname)values(?,?,?,?) 
+17:29:20.685 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==> Parameters: ZAOKIN77f52488-9a0a-4a40-bb9b-65ec3f9dc2b3(String), zaokb4786c4314bd799868f9731a265f24cc(String), 5bf7e10ce61d043d7f44fb91f11219a3(String), (String)
+17:29:20.689 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.insertHximUser - <==    Updates: 1
+18:03:33.280 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:03:33.513 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+18:03:33.675 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:03:34.454 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==>  Preparing: insert into tb_user ( user_name,tel) values (?,?) 
+18:03:34.459 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.insertUser - ==> Parameters: ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String), 16679098561(String)
+18:03:34.465 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.insertUser - <==    Updates: 1
+18:03:34.668 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==>  Preparing: insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (?,?,?,?,?,?) 
+18:03:34.673 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.insertUserNaturePerson - ==> Parameters: ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String), li李san(String), 南科 (String), 开发部(String), 项目经理(String), 公司叫南科大数据，里面有40个人，有7个小姐姐，其余都是小哥哥。。。(String)
+18:03:34.681 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.insertUserNaturePerson - <==    Updates: 1
+18:03:43.327 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==>  Preparing: select count(1) from tb_hxim_user where account =? 
+18:03:43.328 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.queryHXUserByAccount - ==> Parameters: zaokb4786c4314bd799868f9731a265f24cc(String)
+18:03:43.345 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.queryHXUserByAccount - <==      Total: 1
+18:03:44.161 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==>  Preparing: insert into tb_hxim_user(user_name,account,password,nickname)values(?,?,?,?) 
+18:03:44.161 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.insertHximUser - ==> Parameters: ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String), zaokb4786c4314bd799868f9731a265f24cc(String), 5bf7e10ce61d043d7f44fb91f11219a3(String), (String)
+18:03:44.167 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.insertHximUser - <==    Updates: 1
+18:04:09.454 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:04:09.456 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:04:09.459 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:04:10.689 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:04:10.692 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:04:10.700 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:04:12.241 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:04:12.243 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:04:12.249 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:07:47.967 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:07:47.968 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:07:47.972 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:08:04.966 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:08:04.967 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:08:04.974 [http-nio-12801-exec-10] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:08:06.166 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:08:06.168 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:08:06.172 [http-nio-12801-exec-10] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:13:40.077 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:13:40.077 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:13:40.080 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:13:40.080 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:13:40.081 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:13:40.089 [http-nio-12801-exec-9] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:13:40.089 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:13:40.089 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:13:40.093 [http-nio-12801-exec-9] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:13:46.489 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:13:46.490 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:13:46.494 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:13:47.214 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:13:47.218 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:13:47.226 [http-nio-12801-exec-1] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:13:47.921 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:13:47.923 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:13:47.933 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:16:27.917 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:16:27.918 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:16:27.922 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:16:27.922 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:16:27.923 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:16:27.927 [http-nio-12801-exec-3] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:16:27.927 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:16:27.927 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:16:27.933 [http-nio-12801-exec-3] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:17:27.422 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:17:27.423 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:17:27.430 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:17:28.213 [http-nio-12801-exec-5] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:17:28.216 [http-nio-12801-exec-5] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:17:28.221 [http-nio-12801-exec-5] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:17:28.887 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:17:28.894 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:17:28.901 [http-nio-12801-exec-5] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:20:33.260 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:20:33.260 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:20:33.263 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:20:33.263 [http-nio-12801-exec-7] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:20:33.264 [http-nio-12801-exec-7] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 15870882689(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:20:33.267 [http-nio-12801-exec-7] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:20:33.267 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:20:33.268 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:20:33.272 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:20:33.727 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? 
+18:20:33.728 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:20:33.734 [http-nio-12801-exec-7] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 1
+18:22:38.679 [http-nio-12801-exec-8] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:22:38.679 [http-nio-12801-exec-8] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 15870882689(String)
+18:22:38.684 [http-nio-12801-exec-8] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+18:23:10.845 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:23:10.846 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+18:23:10.849 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:23:12.196 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:23:12.197 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 16679098561(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:23:12.202 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:23:16.615 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:23:16.616 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第2部(String), boss(String), wu'wang武王(String), 公司x'x'x小行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:23:16.621 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:23:29.246 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? 
+18:23:29.247 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:23:29.260 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 1
+18:25:17.216 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:25:17.238 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 16679098561(String)
+18:25:17.257 [http-nio-12801-exec-1] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 1
+18:25:43.918 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=? 
+18:25:43.918 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - ==> Parameters: 1667909856991(String)
+18:25:43.920 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.UserMapper.queryUserByTel - <==      Total: 0
+18:25:43.948 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==>  Preparing: update tb_user SET tel =? where user_name = ? 
+18:25:43.948 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - ==> Parameters: 1667909856991(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:25:43.952 [http-nio-12801-exec-2] DEBUG c.s.z.b.mapper.UserMapper.updateUser - <==    Updates: 1
+18:25:43.958 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==>  Preparing: update tb_user_nature_person SET department =?, position = ?, person_name =?, brief_introduction=? where user_name = ? 
+18:25:43.959 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - ==> Parameters: 第9部(String), boss(String), wu'wa王(String), 行星  --------(String), ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:25:43.961 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.updateNaturePerson - <==    Updates: 1
+18:25:44.062 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==>  Preparing: select b.person_name, b.company as "company", b.department, b.position, a.tel , a.status, a.user_name, b.brief_introduction from tb_user a inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=? 
+18:25:44.063 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - ==> Parameters: ZAOKIN8f4fff40-7398-4332-b29f-14345cf12e03(String)
+18:25:44.065 [http-nio-12801-exec-2] DEBUG c.s.z.b.m.U.queryUserByUser_name - <==      Total: 1

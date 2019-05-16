@@ -1,5 +1,6 @@
 package com.southintel.zaokin.base.mapper;
 
+import com.southintel.zaokin.base.entity.Company;
 import com.southintel.zaokin.base.entity.UserDto;
 import org.mapstruct.Mapper;
 
@@ -7,4 +8,6 @@ import org.mapstruct.Mapper;
 public interface CompanyMapper {
 
     int updateCompany(UserDto userDto);
+
+    int insertCompanyName(Company company);
 }

@@ -1,7 +1,7 @@
 server:
   tomcat:
     uri-encoding: UTF-8
-  port: 7007
+  port: 12800
 
 spring:
   datasource:
@@ -27,3 +27,5 @@ spring:
     password:
     database: 6
     port: 6379
+
+ignoreUrl: /user/register,/user/isregister,/user/SMSCode/,/user/login

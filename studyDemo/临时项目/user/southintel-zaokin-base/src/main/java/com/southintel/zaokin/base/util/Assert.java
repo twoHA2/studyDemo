@@ -21,7 +21,7 @@ public class Assert {
 	}
 
 	public static void sqlIsSuccess(int src, ResultEnum msg) {
-		if(src != 1) {
+		if(src <= 0) {
 			throw new BusinessException(msg.getCode(), msg.getMsg());
 		}
 	}
@@ -51,7 +51,7 @@ public class Assert {
 	}
 	//判断该对象 是否为空
 	public static boolean isAllFieldNull(Object obj){
-		if(obj == null )throw new BusinessException(new BaseResult(BaseResultEnum.PARAMETER_ERROR));
+		if(obj == null )throw new BusinessException(ResultEnum.PARAMS_ERROR.getCode(),ResultEnum.PARAMS_ERROR.getMsg());
 		Class stuCla = (Class) obj.getClass();
 		Field[] fs = stuCla.getDeclaredFields();
 		boolean flag = true;
@@ -59,9 +59,10 @@ public class Assert {
 			try {
 				f.setAccessible(true); // 设置属性是可以访问的(私有的也可以)
 				String name = f.getName();
+				if( "user_name".equals(name))continue;
 				Object val =  f.get(obj);
 				if(val==null) {
-					throw new BusinessException(new BaseResult(BaseResultEnum.PARAMETER_ERROR));
+					throw new BusinessException(ResultEnum.PARAMS_ERROR.getCode(),ResultEnum.PARAMS_ERROR.getMsg());
 				}
 			} catch (IllegalAccessException e) {
 				//没有访问权限

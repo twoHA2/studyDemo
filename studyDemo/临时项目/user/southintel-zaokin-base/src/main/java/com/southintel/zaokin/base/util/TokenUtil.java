@@ -32,9 +32,10 @@ public class TokenUtil {
      * @return
      */
     public static String obtainRefreshToken(UserDto user){
-        String key = Constant.AUTH_TOKEN_PREFIX + System.currentTimeMillis();
+        String k =System.currentTimeMillis()+"";
+        String key = Constant.AUTH_TOKEN_PREFIX +k ;
         cache().set(key, user);
-        return key;
+        return k;
     }
 
     public static void setValue(String key, Object object ,long expire  ){

@@ -19,35 +19,13 @@ public class UserDaoImpl implements UserDao{
     UserMapper userMapper;
 
     @Override
-    public User getUserById(int id) {
-        return userMapper.getUserById(id);
-    }
-
-    @Override
-    public List<User> getUserByName(String userName) {
-        return userMapper.getUserByName(userName);
-    }
-
-    @Override
-    public int insertUser(RegisterData registerData) {
-        return userMapper.insertUser(registerData
-        );
-    }
-
-
-    @Override
-    public int insertCompanyName(RegisterData registerData) {
-        return userMapper.insertCompanyName(registerData);
+    public int insertUser(User user) {
+        return userMapper.insertUser(user);
     }
 
     @Override
     public int insertHximUser(HximUser hximUser) {
         return userMapper.insertHximUser(hximUser);
-    }
-
-    @Override
-    public int insertZaokinUser(RegisterData registerData) {
-        return userMapper.insertZaokinUser(registerData);
     }
 
     @Override
@@ -61,8 +39,13 @@ public class UserDaoImpl implements UserDao{
     }
 
     @Override
-    public Map queryUserByUsre_name(String user_name) {
-        return null;
+    public List< UserDto > queryUserByUser_name(String user_name) {
+        return userMapper.queryUserByUser_name(user_name);
+    }
+
+    @Override
+    public int queryHXUserByAccount(String account) {
+        return userMapper.queryHXUserByAccount(account);
     }
 
     @Override

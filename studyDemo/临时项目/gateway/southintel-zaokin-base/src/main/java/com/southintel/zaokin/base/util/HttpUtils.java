@@ -55,11 +55,7 @@ public class HttpUtils {
 				if(asJsonObject != null){
 					String message = asJsonObject.get("errmsg")!=null?asJsonObject.get("errmsg").toString():"";
 					log.error("转发获取数据异常,context:" + context);
-					if(response.getStatusLine().getStatusCode() == 500){
-						throw new RuntimeException( message !=null ?message.substring(1,message.length()-1):"转发获取数据异常");
-					}else{
-						throw new BusinessException(response.getStatusLine().getStatusCode(),message !=null ?message.substring(1,message.length()-1):"转发获取数据异常");
-					}
+					throw new BusinessException(response.getStatusLine().getStatusCode(),!StringUtils.isEmpty(message)?message.substring(1,message.length()-1):"转发获取数据异常");
 				}else{
 					throw new BusinessException(response.getStatusLine().getStatusCode(),"转发获取数据异常");
 				}

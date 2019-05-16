@@ -3,45 +3,29 @@
 <mapper namespace="com.southintel.zaokin.base.mapper.UserMapper">
 
 
-    <insert id="insertUser" parameterType="com.southintel.zaokin.base.entity.RegisterData">
+    <insert id="insertUser" parameterType="com.southintel.zaokin.base.entity.User">
         insert into tb_user ( user_name,tel) values (#{user_name},#{tel})
-    </insert>
-
-    <insert id="insertUserNaturePerson" parameterType="com.southintel.zaokin.base.entity.RegisterData">
-        insert into tb_user_nature_person(user_name,person_name,company,department,position) values (#{user_name},#{name},#{company},#{department},#{position})
-    </insert>
-
-    <insert id="insertCompanyName" parameterType="com.southintel.zaokin.base.entity.RegisterData">
-        insert into company_name (company_name,brief_introduction)values (#{company},#{brief_introduction})
     </insert>
 
     <insert id="insertHximUser" parameterType="com.southintel.zaokin.base.entity.HximUser">
         insert into tb_hxim_user(user_name,account,password,nickname)values(#{user_name},#{account},#{password},#{nickname})
     </insert>
 
-    <insert id="insertZaokinUser" parameterType="com.southintel.zaokin.base.entity.RegisterData">
-        insert into tb_zaokin_user(user_name,type,avatar_url,card_url)values (#{user_name},#{type},#{avatar_url},#{card_url})
-    </insert>
-
-    <select id="isregister" parameterType="java.lang.Integer">
+    <select id="isregister" resultType="java.lang.Integer">
         select count(1) from tb_user where tel = #{tel}
     </select>
 
     <select id="queryUserByTel" resultType="com.southintel.zaokin.base.entity.UserDto">
       select  b.person_name,
-            c.company_name as "company",
+            b.company as "company",
             b.department,
             b.position,
             a.tel ,
             a.status,
-            a.user_name
+            a.user_name,
+            b.brief_introduction
 		from tb_user a
 		inner join tb_user_nature_person b on a.user_name =b.user_name and a.tel=#{tel}
-		inner join tb_company c on b.company = c.company_name
-    </select>
-
-    <select id="queryUserByUsre_name" resultType="java.util.Map">
-
     </select>
 
     <update id="updateUser">
@@ -56,7 +40,20 @@
         where user_name = #{user_name}
     </update>
 
-    <update id="updateUserNaturePersonData" parameterType="com.southintel.zaokin.base.entity.UserDto">
-        update
-    </update>
+    <select id="queryUserByUser_name" resultType="com.southintel.zaokin.base.entity.UserDto">
+        select  b.person_name,
+            b.company as "company",
+            b.department,
+            b.position,
+            a.tel ,
+            a.status,
+            a.user_name,
+            b.brief_introduction
+		from tb_user a
+		inner join tb_user_nature_person b on a.user_name =b.user_name and a.user_name=#{user_name}
+    </select>
+
+    <select id="queryHXUserByAccount" resultType="java.lang.Integer">
+        select count(1) from tb_hxim_user where account =#{account}
+    </select>
 </mapper>

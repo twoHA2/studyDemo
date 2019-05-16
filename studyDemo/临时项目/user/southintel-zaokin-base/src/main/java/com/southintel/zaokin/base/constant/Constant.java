@@ -12,7 +12,7 @@ public interface Constant {
     //登陆token存储前缀
     String LOGIN_SMSCODE_PREFIX = "login_";
     //验证码过期时间
-    long SMSCODE_EXPIRE = 60*2;
+    long SMSCODE_EXPIRE = 60*3;
 
     //密码机密相关常量
     String ALGORITHM_NAME = "md5";
@@ -29,5 +29,8 @@ public interface Constant {
     //认证类型
     String PERSON_TYPE = "person";
     String COMPANY_TYPE = "company";
+
+    //短信验证码模板
+    String MESSAGE_MB = "您%s验证码：%s。请不要把验证码泄露给其他人！3分钟内有效。";
 
 }

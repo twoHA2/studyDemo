@@ -1,0 +1,63 @@
+13:15:53.570?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Starting SouthintelZaoKinAppApplicationTests on LAPTOP-CFDIA80N with PID 16648 (started by lyf in D:\work\zjh_workspace\user\southintel-zaokin-app)
+13:15:53.571?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?The following profiles are active: test
+13:15:54.552?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+13:15:54.555?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+13:15:54.590?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+13:15:54.623?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+13:15:54.623?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+13:15:54.643?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+13:15:54.658?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+13:15:54.660?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+13:15:54.682?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+13:15:54.688?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+13:15:54.688?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+13:15:54.702?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+13:15:55.146?[main]?INFO ?o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker?-?Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fa220e66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:15:55.816?[main]?INFO ?o.s.b.a.l.ConditionEvaluationReportLoggingListener?-?
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18:28:14.862?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Starting SouthintelZaoKinAppApplicationTests on LAPTOP-CFDIA80N with PID 5368 (started by lyf in D:\work\zjh_workspace\user\southintel-zaokin-app)
+18:28:14.863?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?The following profiles are active: test
+18:28:15.592?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:28:15.594?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:28:15.628?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+18:28:15.646?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:28:15.647?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:28:15.663?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+18:28:15.669?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:28:15.669?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:28:15.696?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+18:28:16.075?[main]?INFO ?o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker?-?Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bea429a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:28:17.504?[main]?INFO ?o.s.s.c.ThreadPoolTaskExecutor?-?Initializing ExecutorService 'applicationTaskExecutor'
+18:28:18.768?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Started SouthintelZaoKinAppApplicationTests in 4.329 seconds (JVM running for 5.196)
+18:28:19.009?[Thread-2]?INFO ?o.s.s.c.ThreadPoolTaskExecutor?-?Shutting down ExecutorService 'applicationTaskExecutor'
+18:54:01.990?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Starting SouthintelZaoKinAppApplicationTests on LAPTOP-CFDIA80N with PID 15028 (started by lyf in D:\work\zjh_workspace\user\southintel-zaokin-app)
+18:54:01.991?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?The following profiles are active: test
+18:54:02.724?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:54:02.726?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:54:02.763?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+18:54:02.782?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:54:02.783?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:54:02.802?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+18:54:02.815?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:54:02.815?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:54:02.828?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+18:54:03.221?[main]?INFO ?o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker?-?Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bea429a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:54:04.668?[main]?INFO ?o.s.s.c.ThreadPoolTaskExecutor?-?Initializing ExecutorService 'applicationTaskExecutor'
+18:54:05.954?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Started SouthintelZaoKinAppApplicationTests in 4.402 seconds (JVM running for 5.189)
+18:54:06.183?[Thread-2]?INFO ?o.s.s.c.ThreadPoolTaskExecutor?-?Shutting down ExecutorService 'applicationTaskExecutor'
+18:57:43.736?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Starting SouthintelZaoKinAppApplicationTests on LAPTOP-CFDIA80N with PID 17600 (started by lyf in D:\work\zjh_workspace\user\southintel-zaokin-app)
+18:57:43.737?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?The following profiles are active: test
+18:57:44.480?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:57:44.482?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:57:44.517?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+18:57:44.534?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:57:44.536?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:57:44.558?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+18:57:44.572?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Multiple Spring Data modules found, entering strict repository configuration mode!
+18:57:44.572?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Bootstrapping Spring Data repositories in DEFAULT mode.
+18:57:44.591?[main]?INFO ?o.s.d.r.c.RepositoryConfigurationDelegate?-?Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+18:57:45.012?[main]?INFO ?o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker?-?Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f822dfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18:57:46.513?[main]?INFO ?o.s.s.c.ThreadPoolTaskExecutor?-?Initializing ExecutorService 'applicationTaskExecutor'
+18:57:47.733?[main]?INFO ?c.s.z.SouthintelZaoKinAppApplicationTests?-?Started SouthintelZaoKinAppApplicationTests in 4.433 seconds (JVM running for 5.267)
+18:57:47.947?[Thread-2]?INFO ?o.s.s.c.ThreadPoolTaskExecutor?-?Shutting down ExecutorService 'applicationTaskExecutor'

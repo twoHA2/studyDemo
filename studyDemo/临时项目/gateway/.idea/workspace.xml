@@ -29,14 +29,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="53" />
+            <state relative-caret-position="480">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1753#1754#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#1998#1999#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1701#1702#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/HttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="27" column="77" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="77" />
+            <state relative-caret-position="-545">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,76 +53,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/enums/BaseResultEnum.java">
+        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="375">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/TokenInterceptorAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="38" />
+            <state relative-caret-position="537">
+              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/java/com/southintel/zaokin/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-938">
-              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/RequestUtil.java">
+        <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
-              <folding>
-                <element signature="e#3743#3744#0" expanded="true" />
-                <element signature="e#3797#3798#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="188">
+              <caret line="61" column="49" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/TokenUtil.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="197">
+              <caret line="213" column="33" selection-start-line="213" selection-start-column="33" selection-end-line="213" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/constant/Constant.java">
+        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/PostDataDumperFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="53" column="51" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="51" />
+            <state relative-caret-position="274">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -132,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="57" column="13" selection-start-line="57" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="1500">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -171,6 +165,7 @@
       <find>REFRESH_TOKEN_PREFIX</find>
       <find>mock: @string</find>
       <find>REGEX_MOBILE</find>
+      <find>mong</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -182,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/southintel-weizhi-app/src/main/java/com/southintel/weizhi/PmsServletContextListener.java" />
         <option value="$PROJECT_DIR$/southintel-weizhi-base/src/main/java/com/southintel/weizhi/base/controller/testentity.java" />
         <option value="$PROJECT_DIR$/southintel-weizhi-base/src/main/java/com/southintel/weizhi/base/controller/BackendController.java" />
         <option value="$PROJECT_DIR$/southintel-weizhi-app/src/main/java/com/southintel/weizhi/advice/EnvironmentPostProcessor.java" />
@@ -215,25 +209,34 @@
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/BackendService.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/java/com/southintel/weizhi/App.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/java/com/southintel/zaokin/App.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/southintel-zaokin-app/pom.xml" />
-        <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/TokenInterceptorAdvice.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/entity/registerData.java" />
-        <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/exception/HandleException.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/Assert.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/PatternUtil.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/enums/ResultEnum.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/service/UserService.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application-test.yml" />
-        <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/enums/BaseResultEnum.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/exception/HandleException.java" />
+        <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/TokenInterceptorAdvice.java" />
         <option value="$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java" />
+        <option value="$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\work\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -241,12 +244,17 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="southintel-zaokin-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="southintel-zaokin-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="southintel-zaokin-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="southintel-zaokin-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="southintel-zaokin-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -266,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -273,6 +282,24 @@
             <path>
               <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="zaokin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
@@ -316,12 +343,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-app" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
@@ -376,111 +397,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gateway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="southintel-zaokin-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,7 +429,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25581396" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -534,7 +456,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.southintel.weizhi.App" />
       <module name="southintel-zaokin-app" />
@@ -643,8 +565,9 @@
       </method>
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="southintel-weizhi-app (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southintel.weizhi.App" />
+      <module name="southintel-zaokin-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southintel.zaokin.App" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -695,6 +618,8 @@
       <workItem from="1557292920900" duration="1560000" />
       <workItem from="1557711369790" duration="35000" />
       <workItem from="1557711949098" duration="28317000" />
+      <workItem from="1557974518606" duration="5623000" />
+      <workItem from="1557983209544" duration="8285000" />
     </task>
     <task id="LOCAL-00001" summary="2019/4/11 文章收藏/浏览记录">
       <created>1554977416056</created>
@@ -887,7 +812,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334756000" />
+    <option name="totallyTimeSpent" value="348664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -900,9 +825,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.22121535" />
       <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.26399395" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -912,8 +836,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.11051502" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.30150214" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.34120172" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.2027897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
@@ -924,11 +848,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4989339" weight="0.58112586" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4989339" weight="0.5804721" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25945538" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4985465" weight="0.23542945" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4985465" visible="true" weight="0.26492536" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1035,33 +959,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java</url>
-          <line>46</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/impl/BackendServiceImpl.java</url>
           <line>64</line>
           <properties />
           <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java</url>
-          <line>100</line>
-          <properties />
-          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/ServiceUtil.java</url>
@@ -1077,7 +983,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/HttpUtils.java</url>
-          <line>103</line>
+          <line>99</line>
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
@@ -1100,10 +1006,10 @@
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/TokenInterceptorAdvice.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="161" />
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1150,131 +1056,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/dao/UserBrowseHistoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/entity/ConcernInstitutions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/entity/ProFileConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/entity/FavoriteDelParmaeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/enums/FilterPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/exception/ExceptionHandlerBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/controller/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/BackendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/impl/BackendServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/impl/serviceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5325">
-          <caret line="213" column="35" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="447" column="16" selection-start-line="447" selection-start-column="16" selection-end-line="447" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/PostDataDumperFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/TokenInterceptorAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/enums/FilterPath.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/exception/ExceptionHandlerBean.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/controller/test.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/BackendService.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/impl/BackendServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/weizhi/base/service/impl/serviceTest.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/Logger.class" />
     <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/cache/ICache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1303,34 +1092,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/util/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/http/HttpStatus.class" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/util/Assert.class" />
     <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/entity/RequestParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/exception/HandleException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,17 +1146,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/util/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/util/StringUtils.class" />
     <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/enums/BaseResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1397,16 +1154,6 @@
           <folding>
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/java/com/southintel/zaokin/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1420,20 +1167,6 @@
             <element signature="e#858#859#0" expanded="true" />
             <element signature="e#907#908#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1458,105 +1191,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="57" column="13" selection-start-line="57" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/PatternUtil.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/service/impl/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/enums/BaseResultEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="675">
           <caret line="27" column="18" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="1150">
           <caret line="53" column="51" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/PatternUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/TokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="27" column="77" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-938">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/RequestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="308">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
             <element signature="e#3743#3744#0" expanded="true" />
             <element signature="e#3797#3798#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class" />
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/exception/HandleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/TokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/PostDataDumperFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/advice/TokenInterceptorAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/util/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/java/com/southintel/zaokin/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-base/src/main/java/com/southintel/zaokin/base/controller/BackendController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="213" column="33" selection-start-line="213" selection-start-column="33" selection-end-line="213" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/southintel-zaokin-app/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="61" column="49" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="49" />
         </state>
       </provider>
     </entry>

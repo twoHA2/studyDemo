@@ -46,11 +46,13 @@ public class HandleException extends ResponseEntityExceptionHandler {
             log.error(String.format("接口%s调用异常-->", request.getServletPath()) + e);
             e.printStackTrace();
         }else{
+            //具体可细分
             map.put("path",request.getServletPath());
             map.put("date",new Date());
             map.put("details",e.toString());
             serverResponse= new ServerResponse(0,e.getMessage(),map);
             log.error(String.format("接口%s调用异常-->", request.getServletPath()) + e);
+            e.printStackTrace();
         }
         return serverResponse;
     }

@@ -45,7 +45,10 @@ public enum ResultEnum {
     PROJECT_PUBLISH_FAILY(127,"项目发布失败"),
     PROJECT_COLLECTION_FAILY(128,"项目收藏失败"),
     PROJECT_COLLECTIN_QUERY_FAILY(129,"项目收藏查询失败"),
-    PROJECT_QUERY_FAILY(130,"资产查询失败");
+    PROJECT_QUERY_FAILY(130,"资产查询失败"),
+    REGISTER_FAILY(131,"注册失败"),
+    NOT_TYPE(132,"暂时不能处理该类型"),
+    LOGIN_FAILY(133,"登陆失败");
     int code;
     String msg;
 

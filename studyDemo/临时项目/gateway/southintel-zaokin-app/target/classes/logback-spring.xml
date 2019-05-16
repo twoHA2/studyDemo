@@ -22,7 +22,7 @@
         </encoder>
         <!-- 滚动策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern> logs/gateway/gateway.debug.%d.log</fileNamePattern>
+            <fileNamePattern> logs/gateway/zaokin/gateway.debug.%d.log</fileNamePattern>
             <!--日志文档保留天数-->
             <maxHistory>10</maxHistory>
         </rollingPolicy>
@@ -41,7 +41,7 @@
         </encoder>
         <!-- 滚动策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern> logs/gateway/gateway.Info.%d.log</fileNamePattern>
+            <fileNamePattern> logs/gateway/zaokin/gateway.Info.%d.log</fileNamePattern>
             <!--日志文档保留天数-->
             <maxHistory>10</maxHistory>
         </rollingPolicy>
@@ -59,31 +59,11 @@
         <!-- 滚动策略 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- 路径 -->
-            <fileNamePattern> logs/gateway/gateway.error.%d.log</fileNamePattern>
+            <fileNamePattern> logs/gateway/zaokin/gateway.error.%d.log</fileNamePattern>
             <!--日志文档保留天数-->
             <maxHistory>10</maxHistory>
         </rollingPolicy>
     </appender>
-
-
-    <springProfile name="dev">
-        <logger name="com.southintel.framework" level="DEBUG">
-            <appender-ref ref="fileDebugLog"/>
-            <appender-ref ref="fileInfoLog"/>
-            <appender-ref ref="fileErrorLog"/>
-        </logger>
-        <logger name="org.springframework.web" level="INFO"/>
-        <logger name="org.springframework.data" level="INFO"/>
-        <logger name="org.springframework.transaction" level="DEBUG"/>
-        <logger name="org.hibernate.SQL" level="DEBUG"/>
-        <logger name="org.hibernate.transaction" level="DEBUG"/>
-    </springProfile>
-
-    <springProfile name="uat,prod">
-        <logger name="org.springframework.web" level="INFO"/>
-        <logger name="org.springframework.data" level="INFO"/>
-    </springProfile>
-
 
 
     <root level="info">

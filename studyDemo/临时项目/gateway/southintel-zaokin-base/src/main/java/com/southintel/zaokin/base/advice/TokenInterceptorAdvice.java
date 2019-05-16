@@ -56,7 +56,7 @@ public class TokenInterceptorAdvice {
         if(!StringUtils.isNoneEmpty(token)) {
             throw new BusinessException(new BaseResult(BaseResultEnum.TOKEN_ORERTIME));
         }
-        boolean valid = TokenUtil.isValid(token);// 校验token是否有效
+        boolean valid = TokenUtil.isValid(Constant.AUTH_TOKEN_PREFIX+token);// 校验token是否有效
         if (!valid) { // token 失效
             throw new BusinessException(new BaseResult(BaseResultEnum.TOKEN_ORERTIME));
         }

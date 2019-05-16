@@ -43,7 +43,10 @@ public class RequestUtil {
         }
         return ip;
     }
-
+    public static String getToken(){
+        HttpServletRequest request = currentRequest();
+        return getToken(request);
+    }
     /**
      * @Description:获取当前用户
      * @return

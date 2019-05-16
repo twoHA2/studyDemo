@@ -4,8 +4,6 @@ import com.southintel.zaokin.base.entity.*;
 import com.southintel.zaokin.base.enums.ResultEnum;
 import com.southintel.zaokin.base.exception.BusinessException;
 import com.southintel.zaokin.base.service.UserService;
-import com.southintel.zaokin.base.util.BeanUtil;
-import com.southintel.zaokin.base.util.JsonUtil;
 import com.southintel.zaokin.base.util.PatternUtil;
 import com.southintel.zaokin.base.util.RequestUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +11,8 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
+import java.util.Map;
+
 
 @RestController
 @RequestMapping("/user")
@@ -22,6 +21,12 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @RequestMapping(value = "/test1")
+    public String test(HttpServletRequest request){
+        String xx = request.getParameter("xx");
+        System.err.println(xx);
+        return "hh";
+    }
     /**
      * 注册
      * @param registerData
@@ -34,23 +39,23 @@ public class UserController {
 
     /**
      * 是否已注册
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping(value = "/isregister",method = RequestMethod.POST)
-    public ServerResponse isregister(HttpServletRequest request){
-        return userService.isregister(request.getParameter("tel"));
+    public ServerResponse isregister(@RequestBody Map<String,String> map){
+        return userService.isregister(map.get("tel"));
     }
 
     /**
      * 发送验证码
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping(value = "/SMSCode",method = RequestMethod.POST)
-    public ServerResponse sendSMSCode(HttpServletRequest request){
-        String tel = request.getParameter("tel");
-        String type = request.getParameter("type");
+    public ServerResponse sendSMSCode(@RequestBody Map<String,String> map){
+        String tel = map.get("tel");
+        String type = map.get("type");
         if(!PatternUtil.isMobile(tel)){
             throw new BusinessException(ResultEnum.TEL_ERROR.getCode(),ResultEnum.TEL_ERROR.getMsg());
         }else if(StringUtils.isEmpty(type)){
@@ -61,13 +66,13 @@ public class UserController {
 
     /**
      * 登陆
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping("/login")
-    public String login(HttpServletRequest request){
-        String tel = request.getParameter("tel");
-        String smscode = request.getParameter("smscode");
+    public String login(@RequestBody Map<String,String> map){
+        String tel = map.get("tel");
+        String smscode = map.get("smscode");
         if(!PatternUtil.isMobile(tel)){
             throw new BusinessException(ResultEnum.TEL_ERROR.getCode(),ResultEnum.TEL_ERROR.getMsg());
         }else if(StringUtils.isEmpty(smscode)){
@@ -89,13 +94,13 @@ public class UserController {
 
     /**
      * 认证身份
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping(value = "/attestation/person")
-    public ServerResponse attestationPerson(HttpServletRequest request){
-        String front_url = request.getParameter("front_url");
-        String side_url = request.getParameter("side_url");
+    public ServerResponse attestationPerson(@RequestBody Map<String,String> map){
+        String front_url = map.get("front_url");
+        String side_url = map.get("side_url");
         if(StringUtils.isEmpty(front_url)){
             throw new BusinessException(ResultEnum.FRONT_URL_NOFIND.getCode(),ResultEnum.FRONT_URL_NOFIND.getMsg());
         }else if(StringUtils.isEmpty(side_url)){
@@ -150,13 +155,13 @@ public class UserController {
     }
     /**
      * 项目收藏  需转招金服务
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping(value = "/put_project_collection")
-    public ServerResponse putCollection(HttpServletRequest request){
-        String id = request.getParameter("id");
-        String project_name = request.getParameter("project_name");
+    public ServerResponse putCollection(@RequestBody Map<String,String> map){
+        String id = map.get("id");
+        String project_name = map.get("project_name");
         if(StringUtils.isEmpty(id)){
             throw new BusinessException(ResultEnum.PARAMS_ERROR.getCode(),ResultEnum.PARAMS_ERROR.getMsg());
         }
@@ -165,15 +170,15 @@ public class UserController {
 
     /**
      * 项目收藏查询
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping(value = "/get_project_collection")
-    public ServerResponse getProjectCollection(HttpServletRequest request){
-        String startIndex = request.getParameter("startIndex");
-        String pageSize = request.getParameter("pageSize");
-        String beginDate = request.getParameter("beginDate");
-        String endDate = request.getParameter("endDate");
+    public ServerResponse getProjectCollection(@RequestBody Map<String,String> map){
+        String startIndex = map.get("startIndex");
+        String pageSize = map.get("pageSize");
+        String beginDate = map.get("beginDate");
+        String endDate = map.get("endDate");
         if(StringUtils.isEmpty(startIndex) || StringUtils.isEmpty(pageSize)){
             throw new BusinessException(ResultEnum.PARAMS_ERROR.getCode(),ResultEnum.PARAMS_ERROR.getMsg());
         }
@@ -187,13 +192,13 @@ public class UserController {
 
     /**
      * 取消项目收藏
-     * @param request
+     * @param map
      * @return
      */
     @RequestMapping(value = "/del_project_collection")
-    public ServerResponse delProjectCollection(HttpServletRequest request){
-        String id = request.getParameter("id");
-        String projectName = request.getParameter("project_name");
+    public ServerResponse delProjectCollection(@RequestBody Map<String,String> map){
+        String id = map.get("id");
+        String projectName = map.get("project_name");
         if(StringUtils.isEmpty(id)){
             throw new BusinessException(ResultEnum.PARAMS_ERROR.getCode(),ResultEnum.PARAMS_ERROR.getMsg());
         }

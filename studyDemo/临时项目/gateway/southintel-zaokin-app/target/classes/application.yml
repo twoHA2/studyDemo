@@ -54,7 +54,9 @@ mybatis:
   mapper-locations: classpath*:mapper/*.xml
 
 userService:
-        host: http://127.0.0.1:7008
+        host: http://127.0.0.1:12801
+zaokinService:
+        host: xxx
 backendService:
             host: http://47.107.126.130:50007
             authorization: eyJhbGciOiJIUzI1NiIsImlhdCI6MTU0ODM4NzU4NywiZXhwIjoxNTY2Mzg3NTg3fQ.eyJpYXQiOjE1NDgzODc1ODcuNDM1MTg5MiwiaXNzIjoic291dGhpbnRlbCIsInVzZXJfaWQiOiJzb3V0aGludGVsLWpheSJ9.6OhnikzJETHajkd4QA7lp1du0wTSxSmCg6Dw2QTrQe0

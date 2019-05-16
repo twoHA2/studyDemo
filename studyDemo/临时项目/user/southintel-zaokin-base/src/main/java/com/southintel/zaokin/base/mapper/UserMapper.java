@@ -1,10 +1,7 @@
 package com.southintel.zaokin.base.mapper;
 
 
-import com.southintel.zaokin.base.entity.HximUser;
-import com.southintel.zaokin.base.entity.RegisterData;
-import com.southintel.zaokin.base.entity.User;
-import com.southintel.zaokin.base.entity.UserDto;
+import com.southintel.zaokin.base.entity.*;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -18,24 +15,10 @@ public interface UserMapper {
 
     /**
      * 用户基础信息表
-     * @param registerData
+     * @param user
      * @return
      */
-    int insertUser(RegisterData registerData);
-
-    /**
-     * 用户自然人信息表
-     * @param registerData
-     * @return
-     */
-    int insertUserNaturePerson(RegisterData registerData);
-
-    /**
-     * 公司信息表
-     * @param registerData
-     * @return
-     */
-    int insertCompanyName(RegisterData registerData);
+    int insertUser(User user);
 
     /**
      * 环信用户表
@@ -67,4 +50,7 @@ public interface UserMapper {
 
     int updateUser(UserDto userDto);
 
+    List< UserDto> queryUserByUser_name(@Param("user_name") String user_name);
+
+    int queryHXUserByAccount(@Param("account") String account);
 }

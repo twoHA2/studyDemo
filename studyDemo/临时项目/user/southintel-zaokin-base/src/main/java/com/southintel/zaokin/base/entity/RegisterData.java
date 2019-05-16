@@ -31,7 +31,6 @@ public class RegisterData {
     //公司简介
     private String brief_introduction;
 
-    //新增字段
- //usre_name
-  private String user_name;
+    private String sms_code;
+
 }

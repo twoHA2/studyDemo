@@ -48,7 +48,7 @@ pool:
 
 logging:
   level:
-    #com.southintel.framework.dentist.mapper: trace
-    com.southintel.weizhi.base.mapper:  debug
+#    com.southintel.framework.dentist.mapper: trace
+    com.southintel.zaokin.base.mapper:  debug
 mybatis:
   mapper-locations: classpath*:mapper/*.xml

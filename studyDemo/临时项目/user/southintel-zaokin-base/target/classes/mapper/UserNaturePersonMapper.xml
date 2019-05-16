@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.southintel.zaokin.base.mapper.UserNaturePersonMapper">
+
+    <insert id="insertUserNaturePerson" parameterType="com.southintel.zaokin.base.entity.UserNaturePerson">
+        insert into tb_user_nature_person(user_name,person_name,company,department,position,brief_introduction) values (#{user_name},#{pserson_name},#{company},#{department},#{position},#{brief_introduction})
+    </insert>
+
     <update id="updateNaturePerson" parameterType="com.southintel.zaokin.base.entity.UserDto">
         update tb_user_nature_person
         <set>
             <trim suffixOverrides=",">
+                <if test="department!=null">
+                    department =#{department},
+                </if>
+                <if test="position!=null">
+                    position = #{position},
+                </if>
                 <if test="person_name!=null">
                     person_name =#{person_name},
+                </if>
+                <if test="brief_introduction!=null">
+                    brief_introduction=#{brief_introduction},
                 </if>
             </trim>
         </set>
